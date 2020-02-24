@@ -57,6 +57,12 @@ SEXE
 FROM AGE_2014
 WHERE SEXE = "F"
 
+/* Correction :
+Pour relier les deux requete ->
+GROUP BY SEXE
+ORDER BY SEXE 
+<- */
+
 -- 11. Afficher la population totale du département des « Bouches-du-Rhône »
 
 SELECT SUM(POPULATION_LEGALE) AS POPULATION_TOTALE
